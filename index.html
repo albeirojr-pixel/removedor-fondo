@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removedor de Fondo IA Gratis | Sin Registro 2026</title>
+    <meta name="description" content="Remueve el fondo de tus imágenes con IA en segundos. 100% gratis, sin registro, sin marca de agua.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Removedor de Fondo con IA</h1>
+            <p class="subtitle">Elimina fondos automáticamente en segundos</p>
+        </header>
+
+        <main>
+            <div class="upload-section">
+                <div class="upload-box" id="uploadBox">
+                    <input type="file" id="imageInput" accept="image/jpeg,image/png,image/jpg" hidden>
+                    <div class="upload-content">
+                        <div class="upload-icon">📸</div>
+                        <p class="upload-text">Click para subir imagen</p>
+                        <p class="upload-hint">O arrastra aquí (JPG, PNG - Max 10MB)</p>
+                    </div>
+                </div>
+                <button class="btn-primary" id="processBtn" disabled>Remover Fondo</button>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Procesando con IA... ⏳</p>
+            </div>
+
+            <div class="result-section" id="result">
+                <h2>✨ ¡Listo! Fondo eliminado</h2>
+                <div class="image-comparison">
+                    <div class="image-box">
+                        <p>Original</p>
+                        <img id="originalImage" alt="Imagen original">
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="image-box">
+                        <p>Sin fondo</p>
+                        <img id="processedImage" alt="Imagen sin fondo">
+                    </div>
+                </div>
+                <div class="result-actions">
+                    <button class="btn-download" id="downloadBtn">⬇️ Descargar PNG</button>
+                    <button class="btn-secondary" id="newImageBtn">🔄 Nueva Imagen</button>
+                </div>
+            </div>
+        </main>
+
+        <section class="seo-section">
+            <h2>¿Cómo funciona el removedor de fondo con IA?</h2>
+            <p>Nuestra herramienta usa inteligencia artificial para detectar automáticamente el objeto principal y eliminar el fondo. Perfecto para:</p>
+            <ul>
+                <li>📦 Fotos de productos para e-commerce</li>
+                <li>👤 Fotos de perfil profesionales</li>
+                <li>🎨 Diseño gráfico y montajes</li>
+                <li>📄 Imágenes para presentaciones</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Removedor de Fondo IA © 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
